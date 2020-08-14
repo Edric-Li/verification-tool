@@ -1,0 +1,26 @@
+{
+  "name": "@shealtiel/verification-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-istanbul": "^2.0.1",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shealtiel-Li/verification-tool.git"
+  },
+  "author": "shealtiel",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
